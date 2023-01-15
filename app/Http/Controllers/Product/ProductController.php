@@ -50,8 +50,6 @@ class ProductController extends Controller
             'category_id' => ['required'],
             'price'=>['required','max:255'],
             'img_one'=>['required'],
-            'img_two'=>['required'],
-            'img_three'=>['required'],
             'quantity'=>['required','integer'],
 
         ])->validate();
